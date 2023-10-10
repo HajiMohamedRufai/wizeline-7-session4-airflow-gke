@@ -29,7 +29,7 @@ variable "instance_name" {
 
 variable "database_version" {
   description = "The MySQL, PostgreSQL or SQL Server (beta) version to use. "
-  default     = "POSTGRES_12"
+  default     = "POSTGRES_15"
 }
 
 variable "instance_tier" {
@@ -49,7 +49,7 @@ variable "database_name" {
 
 variable "db_username" {
   description = "Username credentials for root user"
-  default     = "dbuser"
+  default     = "postgres"
 }
 variable "db_password" {
   description = "Password credentials for root user"
