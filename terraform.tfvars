@@ -1,4 +1,4 @@
-project_id = "wizeline-7-airflow-gke"
+project_id = "deb-project-401113"
 region     = "us-central1"
 location     = "us-central1-a"
 
@@ -13,4 +13,4 @@ instance_tier     = "db-f1-micro"
 disk_space        = 10
 database_name     = "dbname"
 db_username       = "postgres"
-db_password       = "dbpassword"
+db_password       = "postgres"
