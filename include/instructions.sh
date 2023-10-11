@@ -12,3 +12,6 @@ gcloud services status sqladmin.googleapis.com
 # Export credentials (Key file)
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/hajirufai/home/WIZLINE/capstone-project/DEB-Project/wizeline-7-airflow-gke/deb-project-401113-7522e23e3ab1.json"
 
+# connect to gke
+gcloud container clusters get-credentials airflow-gke-data-bootcamp --zone us-central1-a --project deb-project-401113
+
